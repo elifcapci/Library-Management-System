@@ -1,72 +1,92 @@
 
 public class BookReturn{
 
-    private string iD;
-    private string bookId;
-    private string borrowId;
-    private DateTime borrowDate;
-    private DateTime returnDate;
-    private string fineId;
+    private string Id;
+    private string BookId;
+    private string BorrowId;
+    private DateTime BorrowDate;
+    private DateTime ReturnDate;
+    private string FineId;
 
-    public string getID()
+    public string getId()
     {
-        return this.iD;
+        return this.Id;
     }
 
-    public void setID(string iD)
+    public void setId(string Id)
     {
-        this.iD = iD;
+        this.Id = Id;
     }
 
     public string getBookId()
     {
-        return this.bookId;
+        return this.BookId;
     }
 
-    public void setBookId(string bookId)
+    public void setBookId(string BookId)
     {
-        this.bookId = bookId;
+        this.BookId = BookId;
     }
 
     public string getBorrowId()
     {
-        return this.borrowId;
+        return this.BorrowId;
     }
 
-    public void setBorrowId(string borrowId)
+    public void setBorrowId(string BorrowId)
     {
-        this.borrowId = borrowId;
+        this.BorrowId = BorrowId;
     }
 
     public DateTime getBorrowDate()
     {
-        return this.borrowDate;
+        return this.BorrowDate;
     }
 
-    public void setBorrowDate(DateTime borrowDate)
+    public void setBorrowDate(DateTime BorrowDate)
     {
-        this.borrowDate = borrowDate;
+        this.BorrowDate = BorrowDate;
     }
 
     public DateTime getReturnDate()
     {
-        return this.returnDate;
+        return this.ReturnDate;
     }
 
-    public void setReturnDate(DateTime returnDate)
+    public void setReturnDate(DateTime ReturnDate)
     {
-        this.returnDate = returnDate;
+        this.ReturnDate = ReturnDate;
     }
 
     public string getFineId()
     {
-        return this.fineId;
+        return this.FineId;
     }
 
-    public void setFineId(string fineId)
+    public void setFineId(string FineId)
     {
-        this.fineId = fineId;
+        this.FineId = FineId;
     }
 
+    public BookReturn(string id, string bookId, string borrowId, DateTime borrowDate, DateTime returnDate, string fineId){
+        Id = id;
+        BookId = bookId;
+        BorrowId = borrowId;
+        BorrowDate = borrowDate;
+        ReturnDate = returnDate;
+        FineId = fineId;
+    }
 
+    public BookReturn() {
+    }
+
+    public static void createBorrow(){
+
+    }
+    public static void deleteBorrow(){
+
+    }
+    public static void displayBorrow(){
+
+    }
 }

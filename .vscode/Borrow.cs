@@ -1,71 +1,82 @@
 public class Borrow{
 
-    private string id;
-    private string bookId;
-    private string memberId;
-    private DateTime borrowDate;
-    private DateTime returnDate;
-    private DateTime mustReturnDate;
+    private string Id;
+    private string BookId;
+    private string MemberId;
+    private DateTime BorrowDate;
+    private DateTime ReturnDate;
+    private DateTime MustReturnDate;
 
     public string getId()
     {
-        return this.id;
+        return this.Id;
     }
 
-    public void setId(string id)
+    public void setId(string Id)
     {
-        this.id = id;
+        this.Id = Id;
     }
 
     public string getBookId()
     {
-        return this.bookId;
+        return this.BookId;
     }
 
-    public void setBookId(string bookId)
+    public void setBookId(string BookId)
     {
-        this.bookId = bookId;
+        this.BookId = BookId;
     }
 
     public string getMemberId()
     {
-        return this.memberId;
+        return this.MemberId;
     }
 
-    public void setMemberId(string memberId)
+    public void setMemberId(string MemberId)
     {
-        this.memberId = memberId;
+        this.MemberId = MemberId;
     }
 
     public DateTime getBorrowDate()
     {
-        return this.borrowDate;
+        return this.BorrowDate;
     }
 
-    public void setBorrowDate(DateTime borrowDate)
+    public void setBorrowDate(DateTime BorrowDate)
     {
-        this.borrowDate = borrowDate;
+        this.BorrowDate = BorrowDate;
     }
 
     public DateTime getReturnDate()
     {
-        return this.returnDate;
+        return this.ReturnDate;
     }
 
-    public void setReturnDate(DateTime returnDate)
+    public void setReturnDate(DateTime ReturnDate)
     {
-        this.returnDate = returnDate;
+        this.ReturnDate = ReturnDate;
     }
 
     public DateTime getMustReturnDate()
     {
-        return this.mustReturnDate;
+        return this.MustReturnDate;
     }
 
-    public void setMustReturnDate(DateTime mustReturnDate)
+    public void setMustReturnDate(DateTime MustReturnDate)
     {
-        this.mustReturnDate = mustReturnDate;
+        this.MustReturnDate = MustReturnDate;
     }
 
+    public Borrow(string id, string bookId, string memberId, DateTme borrowDate, DateTime returnDate, DateTime mustReturnDate) {
+        Id = id;
+        BookId = bookId;
+        MemberId = memberId;
+        BorrowDate = borrowDate;
+        ReturnDate = returnDate;
+        MustReturnDate = mustReturnDate;
+    }
 
+    public Borrow(){
+
+    }
 }

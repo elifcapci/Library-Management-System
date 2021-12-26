@@ -1,104 +1,114 @@
 public class Book {
 
-    private string id;
-    private string name;
-    private string publicationDate;
-    private string publisher;
-    private int numberOfPages;
-    private string language;
-    private string authorID;
-    private string isbnNumber;
-    private string category;
+    private string Id;
+    private string Name;
+    private string PublicationDate;
+    private string Publisher;
+    private int NumberOfPages;
+    private string Language;
+    private string AuthorID;
+    private string IsbnNumber;
+    private string Category;
 
     public string getId()
     {
-        return this.id;
+        return this.Id;
     }
 
-    public void setId(string id)
+    public void setId(string Id)
     {
-        this.id = id;
+        this.Id = Id;
     }
 
     public string getName()
     {
-        return this.name;
+        return this.Name;
     }
 
-    public void setName(string name)
+    public void setName(string Name)
     {
-        this.name = name;
+        this.Name = Name;
     }
 
     public string getPublicationDate()
     {
-        return this.publicationDate;
+        return this.PublicationDate;
     }
 
-    public void setPublicationDate(string publicationDate)
+    public void setPublicationDate(string PublicationDate)
     {
-        this.publicationDate = publicationDate;
+        this.PublicationDate = PublicationDate;
     }
 
     public string getPublisher()
     {
-        return this.publisher;
+        return this.Publisher;
     }
 
-    public void setPublisher(string publisher)
+    public void setPublisher(string Publisher)
     {
-        this.publisher = publisher;
+        this.Publisher = Publisher;
     }
 
     public int getNumberOfPages()
     {
-        return this.numberOfPages;
+        return this.NumberOfPages;
     }
 
-    public void setNumberOfPages(int numberOfPages)
+    public void setNumberOfPages(int NumberOfPages)
     {
-        this.numberOfPages = numberOfPages;
+        this.NumberOfPages = NumberOfPages;
     }
 
     public string getLanguage()
     {
-        return this.language;
+        return this.Language;
     }
 
-    public void setLanguage(string language)
+    public void setLanguage(string Language)
     {
-        this.language = language;
+        this.Language = Language;
     }
 
     public string getAuthorID()
     {
-        return this.authorID;
+        return this.AuthorID;
     }
 
-    public void setAuthorID(string authorID)
+    public void setAuthorID(string AuthorID)
     {
-        this.authorID = authorID;
+        this.AuthorID = AuthorID;
     }
 
     public string getIsbnNumber()
     {
-        return this.isbnNumber;
+        return this.IsbnNumber;
     }
 
-    public void setIsbnNumber(string isbnNumber)
+    public void setIsbnNumber(string IsbnNumber)
     {
-        this.isbnNumber = isbnNumber;
+        this.IsbnNumber = IsbnNumber;
     }
 
     public string getCategory()
     {
-        return this.category;
+        return this.Category;
     }
 
-    public void setCategory(string category)
+    public void setCategory(string Category)
     {
-        this.category = category;
+        this.Category = Category;
     }
 
+    public Book(string name,string isbnNumber,string category,string publicationDate){
 
+        Name = name;
+        IsbnNumber = isbnNumber;
+        Category = category;
+        PublicationDate = publicationDate;
+    }
+
+    public Book(){
+
+    }
 }
