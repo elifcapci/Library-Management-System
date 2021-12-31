@@ -1,6 +1,9 @@
-public class Member{
+public class Member : Person{
 
-private string name;
+private String name;
+
+
+
 
 
 }
