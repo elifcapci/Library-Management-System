@@ -79,14 +79,5 @@ public class BookReturn{
 
     public BookReturn() {
     }
-
-    public static void createBorrow(){
-
-    }
-    public static void deleteBorrow(){
-
-    }
-    public static void displayBorrow(){
-
-    }
+    
 }

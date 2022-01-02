@@ -1,0 +1,16 @@
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\Library-Management-System.exe
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\Library-Management-System.deps.json
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\Library-Management-System.runtimeconfig.json
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\Library-Management-System.runtimeconfig.dev.json
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\Library-Management-System.dll
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\ref\Library-Management-System.dll
+C:\Users\Elif\Documents\GitHub\Library-Management-System\bin\Debug\net5.0\Library-Management-System.pdb
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.csprojAssemblyReference.cache
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.AssemblyInfoInputs.cache
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.AssemblyInfo.cs
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.dll
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\ref\Library-Management-System.dll
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.pdb
+C:\Users\Elif\Documents\GitHub\Library-Management-System\obj\Debug\net5.0\Library-Management-System.genruntimeconfig.cache

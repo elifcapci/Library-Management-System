@@ -79,4 +79,14 @@ public class Borrow{
     public Borrow(){
 
     }
+
+    public static void createBorrow(){
+
+    }
+    public static void deleteBorrow(){
+
+    }
+    public static void displayBorrow(){
+
+    }
 }
